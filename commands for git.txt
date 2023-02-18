@@ -1,6 +1,14 @@
 create a folder
 add file sample.txt to it
 activate git bash
+git
+
+
+
+
+
+
+
 
 git init -b main
 git add . && git commit -m "initial commit"
@@ -10,3 +18,14 @@ git commit -m "first commit"
 $ git remote add origin https://github.com/psoumya26/testbook.git
 git remote -v
 git push origin main
+
+
+#########################
+…or create a new repository on the command line
+echo "# test1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:psoumya26/test1.git
+git push -u origin main
