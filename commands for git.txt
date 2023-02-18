@@ -1,0 +1,5 @@
+create a folder
+add file sample.txt to it
+activate git bash
+
+git init -b main
