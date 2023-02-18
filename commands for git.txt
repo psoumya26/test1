@@ -3,3 +3,10 @@ add file sample.txt to it
 activate git bash
 
 git init -b main
+git add . && git commit -m "initial commit"
+git add .
+git commit -m "first commit"
+
+$ git remote add origin https://github.com/psoumya26/testbook.git
+git remote -v
+git push origin main
