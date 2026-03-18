@@ -1,0 +1,45 @@
+step 1: Create a filder,add 3 files
+step 2:rigthy click in the folder and open git bash 
+step 3: git status-->this will show the status
+step 4: git init-->initialize the git
+step 5:git add --a --->add this folader to add
+step 6: git status--> red color files
+step 7:git commit -m "first commit"
+--> all files image is created in the staging area
+step 8:git status--> all files in green colur
+
+###now tell git about your repository###
+
+step 9:git remote add <git http link>
+step 9: git remote add https:\\github.com\psoumya26\test1repo.git
+
+step 10:git branch -M main
+
+#### main is the branch name######
+
+step 11:git push --set-upstream origin main --> set repo to upstream
+step 12: git push -f origin-->push your codes to repository
+
+step 12: git push -u origin main
+step 13:now open the repo and observe the files
+
+Extra commands:::
+git remote remove origin-->remove  the present repo as origin
+
+##### to clone the repository, copy the files from github to your computer###
+git clone <link>
+git clone https://github.com/psoumya26/website
+
+
+
+#### how to create the branch############################
+
+
+
+
+
+
+
+
+
+
